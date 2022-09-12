@@ -1,0 +1,29 @@
+.card {
+    width: 350px;
+    border: 1px solid hsl(180, 1%, 32%);
+    background-color: hsla(227, 23%, 16%, 0.959);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.userName {
+    margin-left: 20px;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.icon-country {
+    width: 15px;
+    height: 15px;
+    margin-left: -10px;
+}

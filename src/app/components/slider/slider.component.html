@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="contain">
+        <div class="arrows" (click)="changeCard(-1)">
+            <img src="assets/arrow.png" alt="previous arrow" class="arrow arrow-prev">
+        </div>
+        <app-card [card]='this.currentCard'></app-card>
+        <div class="arrows" (click)="changeCard(1)">
+            <img src="assets/arrow.png" alt="previous arrow" class="arrow">
+        </div>
+
+    </div>
+</div>
